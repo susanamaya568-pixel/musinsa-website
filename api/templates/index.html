@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musinsa Clone</title>
+
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">MUSINSA</div>
+
+    <div class="cart-area">
+        🛒 장바구니
+        <span id="cart-count">0</span>
+    </div>
+</header>
+
+<section class="banner">
+    <h1>2026 SUMMER COLLECTION</h1>
+</section>
+
+<section class="product-grid">
+
+    <div class="product-card">
+        <img src="https://picsum.photos/400/500?1">
+        <h3>오버핏 반팔티</h3>
+        <p>29,000원</p>
+        <button onclick="addToCart(1,'오버핏 반팔티',29000)">
+            장바구니 담기
+        </button>
+    </div>
+
+    <div class="product-card">
+        <img src="https://picsum.photos/400/500?2">
+        <h3>와이드 데님팬츠</h3>
+        <p>59,000원</p>
+        <button onclick="addToCart(2,'와이드 데님팬츠',59000)">
+            장바구니 담기
+        </button>
+    </div>
+
+    <div class="product-card">
+        <img src="https://picsum.photos/400/500?3">
+        <h3>레더 스니커즈</h3>
+        <p>89,000원</p>
+        <button onclick="addToCart(3,'레더 스니커즈',89000)">
+            장바구니 담기
+        </button>
+    </div>
+
+</section>
+
+<script src="/static/js/app.js"></script>
+
+</body>
+</html>
